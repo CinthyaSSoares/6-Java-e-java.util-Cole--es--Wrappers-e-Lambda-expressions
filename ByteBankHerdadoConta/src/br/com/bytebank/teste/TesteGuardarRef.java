@@ -18,7 +18,7 @@ public class TesteGuardarRef {
 		int tamanho = guardando.getQuantidadeDeElementos();
 		System.out.println("Posições livres: " + tamanho);
 		
-		Conta ref = guardando.getReferencia(0);
+		Conta ref = (Conta) guardando.getReferencia(0);
 		System.out.println(ref.getNumero());
 	}
 
